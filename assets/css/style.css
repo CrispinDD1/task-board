@@ -14,3 +14,13 @@ body {
 .task-card:hover {
   cursor: grab;
 }
+
+.modal {
+  display: none;
+}
+
+.modal.is-active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
